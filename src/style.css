@@ -9,3 +9,9 @@
     text-align: center;
     margin-block: 0.5rem;
 }
+
+td,
+th {
+    border: 1px solid #333;
+    text-align: center;
+}

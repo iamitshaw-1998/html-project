@@ -40,56 +40,122 @@
                 <section id="contact">
                     <h2>Get in Touch with The Omelette Haven</h2>
                     <p>
-                        We'd love to hear from you! Whether you have a question,
-                        a suggestion, or just want to share your omelette
-                        experience, please don't hesitate to contact us.
+                        We'd love to hear from you! Please fill out the form
+                        below to send us your questions, suggestions, or
+                        feedback.
                     </p>
-                    <div class="store-location">
-                        <address>
-                            <strong>Our Location:</strong><br />
-                            <span>The Omelette Haven</span><br />
-                            <span>123 Egg Street</span><br />
-                            <span>Omelette Town, Bihar, 800001</span
-                            ><br /><br />
-                            <strong>Email Us:</strong><br />
-                            <a
-                                itemprop="email"
-                                href="mailto:info@omelettehaven.com"
-                                >info@omelettehaven.com</a
-                            ><br /><br />
-                            <strong>Call Us:</strong><br />
-                            <a itemprop="telephone" href="tel:+919876543210"
-                                >+91-9876543210</a
-                            >
-                        </address>
+                    <div class="feedback-form">
+                        <form id="contact-form" action="#" method="post">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    required
+                                />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    required
+                                />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone"
+                                    >Phone Number (Optional):</label
+                                >
+                                <input type="tel" id="phone" name="phone" />
+                            </div>
+                            <div class="form-group">
+                                <label for="type">Type:</label>
+                                <select id="type" name="type" required>
+                                    <option value="question">Question</option>
+                                    <option value="suggestion">
+                                        Suggestion
+                                    </option>
+                                    <option value="feedback" selected>
+                                        Feedback
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject:</label>
+                                <input
+                                    type="text"
+                                    id="subject"
+                                    name="subject"
+                                    required
+                                />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    rows="3"
+                                    cols="50"
+                                    required
+                                ></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit">Send Message</button>
+                            </div>
+                        </form>
                     </div>
-                    <div class="social-media">
-                        <p>
-                            You can also connect with us on social media for the
-                            latest updates and special offers:
-                        </p>
-                        <ul>
-                            <li>
-                                <a
-                                    href="https://facebook.com/theomelettehaven"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Facebook
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://instagram.com/theomelettehaven"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Instagram
-                                </a>
-                            </li>
-                        </ul>
+
+                    <hr class="start-rule" />
+                    <div class="contact-details">
+                        <h3>Other Ways to Reach Us:</h3>
+                        <div class="store-location">
+                            <address>
+                                <strong>Our Location:</strong><br />
+                                <span>The Omelette Haven</span><br />
+                                <span>123 Egg Street</span><br />
+                                <span>Omelette Town, Bihar, 800001</span><br />
+                            </address>
+                        </div>
+                        <div>
+                            <strong>Email:</strong>
+                            <a href="mailto:info@omelettehaven.com"
+                                >info@omelettehaven.com</a
+                            ><br />
+                            <strong>Phone:</strong>
+                            <a href="tel:+919876543210">+91-9876543210</a>
+                        </div>
+                        <div class="social-media">
+                            <p>Connect with us on social media:</p>
+                            <ul>
+                                <li>
+                                    <a
+                                        href="https://facebook.com/theomelettehaven"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Facebook
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://instagram.com/theomelettehaven"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Instagram
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </section>
+
                 <hr class="start-rule" />
             </main>
 
